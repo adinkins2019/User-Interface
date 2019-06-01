@@ -64,3 +64,47 @@ h1, h2, h3, h4, h5 {
 }
 
 /* Your code starts here! */
+
+.page_header {
+	display: inline-block;
+}
+.nav_links {
+	margin: 20px;
+	
+}
+
+.nav_links a {
+	text-decoration: none;
+	padding: 50px;
+	margin: 10px;
+}
+
+.site_motto {
+	display: inline-block;
+}
+
+.motto {
+	display: block;
+}
+
+.call_to_action {
+	border: 1px solid black;
+}
+
+
+.about_us {
+	display: inline-block;
+}
+
+.site_services {
+	display: inline-block;
+}
+.box1, .box2, .box3, .box4, .box5 {
+	display: block;
+}
+.box_heading {
+	font-weight: 20px;
+}
+.copy_text {
+	text-align: center;
+}
