@@ -70,6 +70,7 @@ h1, h2, h3, h4, h5 {
 }
 .nav_links {
 	margin: 20px;
+	display: inline-block;
 	
 }
 
@@ -79,19 +80,30 @@ h1, h2, h3, h4, h5 {
 	margin: 10px;
 }
 
+.logo {
+	display: inline-block;
+}
+
 .site_motto {
 	display: inline-block;
 }
 
 .motto {
-	display: block;
+	display: inline-block;
 }
-
+.main_content {
+	border-top: 1 solid black;
+	border-bottom: 1 solid black;
+}
 .call_to_action {
 	border: 1px solid black;
+	width: 100px;
 }
 
-
+.image1 {
+	display: inline-block;
+	float: right;
+}
 .about_us {
 	display: inline-block;
 }
@@ -99,11 +111,31 @@ h1, h2, h3, h4, h5 {
 .site_services {
 	display: inline-block;
 }
-.box1, .box2, .box3, .box4, .box5 {
-	display: block;
+.box1, .box2 {
+	width: 40%;
+	height: 200px;
+	display: inline-block;
+} 
+.middle-img {
+	width: 100%;
+}
+
+.box3, .box4, .box5 {
+	width: 30%;
+	height: 200px;
+	display: inline-block;
+	margin-top: 10px;
+	
 }
 .box_heading {
-	font-weight: 20px;
+	font-family: 'Bangers', cursive;
+    letter-spacing: 1px;
+    margin-bottom: 15px;
+	font-weight: bold;
+	display: inline-block;
+}
+.box_text {
+	display: inline-block;
 }
 .copy_text {
 	text-align: center;
