@@ -64,3 +64,101 @@ h1, h2, h3, h4, h5 {
 }
 
 /* Your code starts here! */
+
+.page_header {
+	display: inline-block;
+}
+.nav_links {
+	margin: 20px;
+	display: inline-block;
+	
+}
+
+.nav_links a {
+	text-decoration: none;
+	padding: 50px;
+	margin: 10px;
+}
+
+.logo {
+	display: inline-block;
+}
+
+.site_motto {
+	margin: auto;
+	display: inline-block;
+	vertical-align: text-bottom;
+	text-align: center;
+	width: 100%;
+	
+}
+
+.motto {
+	font-size: 70px;
+	text-align: center;
+	display: inline-block;
+	padding: 20px;
+	margin: 20px;
+}
+
+
+.call_to_action {
+	border: 1px solid black;
+	font-size: 20px;
+	width: 200px;
+	padding: 10px;
+	text-align: center;
+	margin: auto;
+}
+
+.image1 {
+	display: inline-block;
+	padding: 20px;
+	/*vertical-align: sub;*/
+	/*vertical-align: text-bottom;*/
+/*	float: right;*/
+}
+.about_us {
+	display: inline-block;
+}
+
+.site_services {
+	display: inline-block;
+}
+.box1, .box2 {
+	width: 40%;
+	height: 200px;
+	display: inline-block;
+} 
+.middle-img {
+	width: 90%;
+	margin: 10px;
+}
+
+.box3, .box4, .box5 {
+	width: 30%;
+	height: 200px;
+	display: inline-block;
+	margin-top: 10px;
+	padding: 10px;
+	
+}
+.box_heading {
+	font-family: 'Bangers', cursive;
+    letter-spacing: 1px;
+    margin-bottom: 15px;
+	font-weight: bold;
+	display: inline-block;
+}
+.box_text {
+	display: inline-block;
+}
+.copy_text {
+	text-align: center;
+}
+
+hr {
+	width: 95%;
+	margin: 20px;
+}
+
